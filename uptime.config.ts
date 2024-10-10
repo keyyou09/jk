@@ -5,7 +5,7 @@ const pageConfig = {
   links: [
     { link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
     { link: 'https://blog.090227.xyz/', label: 'CM' },
-    { link: 'https://github.com/keyyou09', label: '笔记本GitHub' },
+    { link: 'https://github.com/keyyou09', label: '笔记本GitHub', highlight: true },
     { link: 'https://keyyou09.github.io/', label: 'Blog'},
   ],
 }
@@ -26,11 +26,11 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://am.809098.xyz',
+      target: 'https://d8104fe8.uptimeflare-ciu.pages.dev/',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://am.809098.xyz',
+      statusPageLink: 'https://d8104fe8.uptimeflare-ciu.pages.dev/',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       // expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
