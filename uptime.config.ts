@@ -1,12 +1,12 @@
 const pageConfig = {
   // Title for your status page
-  title: "AM科技's Status Page",
+  title: "keyyou's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
-    { link: 'https://youtube.com/@AM_CLUB', label: 'AM科技' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' },
-    { link: 'https://809098.xyz', label: 'Blog'},
+    { link: 'https://blog.090227.xyz/', label: 'CM' },
+    { link: 'https://github.com/keyyou09', label: '笔记本GitHub' },
+    { link: 'https://keyyou09.github.io/', label: 'Blog'},
   ],
 }
 
@@ -50,14 +50,25 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: '809098.xyz',
-      name: 'Blog',
+      id: 'CM',
+      name: 'CM-Blog',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
+      target: 'https://blog.090227.xyz/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      statusPageLink: 'https://blog.090227.xyz/',
+      timeout: 10000,
+    }, 
+    {
+      id: 'BLOG',
+      name: '笔记本Blog',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://keyyou09.github.io/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://keyyou09.github.io/',
       timeout: 10000,
     },
   ],
