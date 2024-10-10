@@ -5,7 +5,7 @@ const pageConfig = {
   links: [
     { link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
     { link: 'https://blog.090227.xyz/', label: 'CM' },
-    { link: 'https://github.com/keyyou09', label: '笔记本GitHub', highlight: true },
+    { link: 'https://github.com/keyyou09', label: '笔记本GitHub' },
     { link: 'https://keyyou09.github.io/', label: 'Blog'},
   ],
 }
